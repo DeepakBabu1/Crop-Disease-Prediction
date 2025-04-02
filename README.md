@@ -1,4 +1,4 @@
-#Paddy Disease Prediction
+** Paddy Disease Prediction **
 
 #Overview
 
