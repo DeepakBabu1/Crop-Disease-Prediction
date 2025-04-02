@@ -1,10 +1,10 @@
 **Paddy Disease Prediction**
 
-#Overview
+**Overview**
 
 This project is a Paddy Disease Prediction System built using Streamlit, designed to help farmers and researchers detect diseases in paddy crops. The application uses a Convolutional Neural Network (CNN) model to classify paddy leaf diseases based on uploaded images.
 
-#Features
+**Features**
 
 •	User-Friendly Interface: Simple web-based UI for uploading paddy leaf images.
 
@@ -18,7 +18,7 @@ This project is a Paddy Disease Prediction System built using Streamlit, designe
 
 •	Cloud Deployment: Easily deployable on Streamlit Cloud, AWS, or GCP.
 
-#Tech Stack
+**Tech Stack**
 
 •	Framework: Streamlit
 
@@ -30,7 +30,7 @@ This project is a Paddy Disease Prediction System built using Streamlit, designe
 
 •	Storage: Local storage for images and predictions
 
-#Process
+**Process**
 
 •	Data Collection: Gather paddy leaf images with labeled diseases.
 
@@ -46,7 +46,7 @@ This project is a Paddy Disease Prediction System built using Streamlit, designe
 
 •	Visualization: Display results and trends using interactive charts.
 
-#Deployment
+**Deployment**
 
 •	Deploy on Streamlit Cloud
 
@@ -56,7 +56,7 @@ This project is a Paddy Disease Prediction System built using Streamlit, designe
 
 •	Connect your repository and deploy.
 
-#Usage
+**Usage**
 
 •	Upload a paddy leaf image.
 
@@ -64,7 +64,7 @@ This project is a Paddy Disease Prediction System built using Streamlit, designe
 
 •	Provides the Confidence Score(How certain the model is about the prediction)
 
-#Future Enhancements
+**Future Enhancements**
 
 •	Improve model accuracy with more training data.
 
