@@ -50,18 +50,22 @@ This project is a Crop(Paddy) Disease Prediction System built using Streamlit, d
 **Usage**
 
 *Upload an Image*
+
  •	On the app’s homepage, click the “Upload” button to select a paddy leaf image (JPEG/PNG).
  •	The uploaded image will be displayed on the screen for confirmation.
 
 *Model Prediction*
+
  •	Once uploaded, the CNN model (trained using Keras & TensorFlow) automatically processes the image.
  •	The model classifies whether the paddy leaf is healthy or has a specific disease (e.g., blast, blight, brown spot).
 
 *View Results*
+
  •	The predicted disease name (or “Healthy”) is shown clearly on the screen.
  •	A confidence score (e.g., 92%) is displayed, showing how certain the model is about its prediction.
 
 *Save/Download Results*
+
  •	Users can choose to save predictions locally or download them for later reference.
 
 **Deployment on Streamlit Cloud**
