@@ -46,28 +46,34 @@ This project is a Crop(Paddy) Disease Prediction System built using Streamlit, d
 
 •	Visualization: Display results and trends using interactive charts.
 
-**Deployment**
-
-•	Deploy on Streamlit Cloud
-
-•	Push your project to a GitHub repository.
-
-•	Go to Streamlit Community Cloud.
-
-•	Connect your repository and deploy.
 
 **Usage**
 
-•	Upload a paddy leaf image.
+*Upload an Image*
+ •	On the app’s homepage, click the “Upload” button to select a paddy leaf image (JPEG/PNG).
+ •	The uploaded image will be displayed on the screen for confirmation.
 
-•	The CNN model predicts the disease and displays results.
+*Model Prediction*
+ •	Once uploaded, the CNN model (trained using Keras & TensorFlow) automatically processes the image.
+ •	The model classifies whether the paddy leaf is healthy or has a specific disease (e.g., blast, blight, brown spot).
 
-•	Provides the Confidence Score(How certain the model is about the prediction)
+*View Results*
+ •	The predicted disease name (or “Healthy”) is shown clearly on the screen.
+ •	A confidence score (e.g., 92%) is displayed, showing how certain the model is about its prediction.
 
-**Future Enhancements**
+*Save/Download Results*
+ •	Users can choose to save predictions locally or download them for later reference.
 
-•	Improve model accuracy with more training data.
+**Deployment on Streamlit Cloud**
 
-•	Add multilingual support for farmers in different regions.
+•	Push your project code, requirements file (requirements.txt), and trained model to a GitHub repository.
 
-•	Integrate real-time data from IoT devices.
+•	Go to Streamlit Community Cloud and log in with GitHub.
+
+•	Select your repository, branch, and main app file.
+
+•	Configure environment dependencies (make sure tensorflow, keras, pandas, etc. are in requirements.txt).
+
+•	Click Deploy. Streamlit Cloud will build your app and provide a shareable URL.
+
+ 
