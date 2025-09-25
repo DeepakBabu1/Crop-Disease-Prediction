@@ -61,7 +61,7 @@ This project is a Crop(Paddy) Disease Prediction System built using Streamlit, d
  
  •	The model classifies whether the paddy leaf is healthy or has a specific disease (e.g., blast, blight, brown spot).
  
- *Model Performance and Evaluation" 
+ *Model Performance and Evaluation*
 
  •	During the testing phase, the Convolutional Neural Network (CNN) model achieved an overall accuracy of 92% on unseen validation data, demonstrating its reliability in real-world scenarios. 
  
